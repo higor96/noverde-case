@@ -10,6 +10,8 @@ git clone https://github.com/higor96/noverde-case.git
 
 Na documentação do Docker é possível encontrar o passo a passo para realizar a instalação do Docker e Docker-Compose.
 Ambos são necessários para execução do projeto.
+https://docs.docker.com/compose/install/
+https://docs.docker.com/engine/install/
 
 ### Inicialização
 
