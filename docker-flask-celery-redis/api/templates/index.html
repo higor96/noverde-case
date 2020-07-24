@@ -1,0 +1,49 @@
+	<!DOCTYPE html>
+	<html>
+		<head>
+			<meta charset="UTF-8" />
+			<meta name="viewport" content="width=device-width, initial-scale=1" />
+			<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+			<title>Case Noverde</title>
+		</head>
+		<body>
+			<div class="container">
+				<div>
+					<h1>Case Noverde</h1>
+				<div>
+
+				<br>
+
+				<div>
+					<h2>Input</h2>
+					<form action="/loan" method="POST">
+
+						<label for="name">name:</label>
+						<input type="text" name="name" id="name" required="required"/>	
+
+						<label for="cpf">cpf:</label>
+						<input type="text" name="cpf" id="cpf" required="required"/>	
+
+						<label for="birthdate">birthdate:</label>
+						<input type="date" name="birthdate" id="birthdate" required="required"/>	
+
+						<label for="amount">amount:</label>
+						<input type="number" name="amount" id="amount" min="1000.00" max="4000.00" step="0.01" placeholder="R$" required="required"/>	
+
+						<label for="terms">terms:</label>
+						<select name="terms" id="terms" required="required">	
+							<option value="6">6</option>
+							<option value="9">9</option>
+							<option value="12">12</option>
+						</select>
+
+						<label for="income">income:</label>
+						<input type="number" name="income" id="income" step="0.01" placeholder="R$" required="required"/>	
+
+						<input type="submit" value="submit" />
+					</form>
+
+				</div>
+			</div>
+		</body>
+	</html>
